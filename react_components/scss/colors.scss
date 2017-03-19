@@ -1,0 +1,28 @@
+$text-grey: #555;
+$text-grey-lighter: #777;
+
+$background-grey-dark: #444;
+$background-grey-medium: #888;
+$background-grey-light: #ccc;
+$background-grey-lighter: #ddd;
+$background-grey-lighter-tone: #f7f4ef;
+
+$border-grey-light: #ccc;
+
+$background-bluish-light: #F7FFFA;
+$background-bluish-darker: #CDD8D2;
+$background-redish-light: #D8D1D0;
+$text-bluish: #7C98B3;
+$text-bluish-darker: darken($text-bluish, 20);
+$main-red: #CC7677;
+$main-red-lighter: lighten($main-red, 20);
+$main-red-darker: darken($main-red, 10);
+$main-red-darker-xt: darken($main-red, 30);
+$main-yellow: #F6BD60;
+$main-yellow-darker: darken($main-yellow, 10);
+$main-yellow-darker-xt: darken($main-yellow, 30);
+$main-yellow-lighter: lighten($main-yellow, 20);
+$main-green: #87E587;
+$main-green-darker: darken($main-green, 20);
+$main-green-darker-xt: darken($main-green, 30);
+$main-green-ligher: lighten($main-green, 20);

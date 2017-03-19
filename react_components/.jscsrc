@@ -1,0 +1,100 @@
+{
+	"preset": "jquery",
+    "excludeFiles": [
+      "app/assets/javascripts/modules/**.js",
+      "app/assets/javascripts/modules-src/**.js",
+      "app/assets/javascripts/debug/**",
+      "app/assets/javascripts/react/**",
+      "app/assets/javascripts/dist/**/*"
+    ],
+    "validateLineBreaks": null,
+    "validateIndentation": 4,
+    "requireSemicolons": false,
+    "maximumLineLength": null,
+    "requireSpacesInsideParentheses": null,
+    "validateQuoteMarks": "'",
+    "requireCamelCaseOrUpperCaseIdentifiers": null,
+    "requireMultipleVarDecl": true,
+    "requirePaddingNewLineAfterVariableDeclaration": true,
+    "requirePaddingNewLinesAfterBlocks": {
+      "allExcept": [
+        "inCallExpressions",
+        "inArrayExpressions",
+        "inProperties"
+      ]
+    },
+
+    "requirePaddingNewlinesBeforeKeywords": [
+      "do",
+      "for",
+      "if",
+      "switch",
+      "try",
+      "while",
+      "var"
+    ],
+    "requireSpaceBeforeBinaryOperators": [
+      ">",
+      ">=",
+      "<",
+      "<=",
+      "=",
+      "+",
+      "-",
+      "*",
+      "/"
+    ],
+    "requireSpaceAfterBinaryOperators": [
+      ">",
+      ">=",
+      "<",
+      "<=",
+      "=",
+      "+",
+      "-",
+      "*",
+      ",",
+      "/"
+    ],
+    "requireSpaceBeforeKeywords": [
+      "else",
+      "while",
+      "catch"
+    ],
+    "requireSpaceAfterKeywords": [
+      "do",
+      "for",
+      "if",
+      "else",
+      "switch",
+      "case",
+      "try",
+      "catch",
+      "void",
+      "while",
+      "with",
+      "return"
+    ],
+    "disallowSpacesInFunction": {
+      "beforeOpeningRoundBrace": true
+    },
+    "requireCapitalizedComments" : null,
+    "requireSpacesInsideBrackets": null,
+    "requireSpacesInsideObjectBrackets": null,
+    "requireSpacesInsideArrayBrackets": null,
+    "disallowTrailingWhitespace": null,
+    "disallowMultipleLineBreaks": true,
+    "disallowSpacesInCallExpression": true,
+    "disallowSpacesInsideParentheses": true,
+    "disallowSpacesInsideBrackets": true,
+    "disallowSpacesInsideArrayBrackets": true,
+    "disallowSpacesInsideObjectBrackets": true,
+    "requireDotNotation": null,
+    "requireSpaceBeforeObjectValues": true,
+    "requireSpaceBetweenArguments": true,
+    "requireSpacesInForStatement": true,
+    "requireSpaceAfterObjectKeys": null,
+    "disallowSpaceAfterObjectKeys": null,
+    "requireLineBreakAfterVariableAssignment": true,
+    "requirePaddingNewLinesBeforeLineComments": {"allExcept": "firstAfterCurly"}
+}
